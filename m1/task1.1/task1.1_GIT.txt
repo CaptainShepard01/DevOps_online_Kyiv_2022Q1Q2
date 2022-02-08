@@ -1,0 +1,17 @@
+ea82445 HEAD@{0}: merge develop: Fast-forward
+46ff423 HEAD@{1}: checkout: moving from develop to master
+ea82445 HEAD@{2}: commit (merge): Merging branches
+4efae2d HEAD@{3}: merge images: Fast-forward
+d307dbc HEAD@{4}: checkout: moving from styles to develop
+0346645 HEAD@{5}: commit: Linked index.html file with styles.css file
+d48ddf3 HEAD@{6}: commit: Created empty styles.css file for future styling of index.html file
+d307dbc HEAD@{7}: checkout: moving from develop to styles
+d307dbc HEAD@{8}: checkout: moving from images to develop
+4efae2d HEAD@{9}: commit: Changed index.html, added images source inside it
+4f2bc7b HEAD@{10}: commit: Changed images' names to be more convenient to operate with
+b927daf HEAD@{11}: commit: Added 2 images into folder images
+d307dbc HEAD@{12}: checkout: moving from develop to images
+d307dbc HEAD@{13}: commit: Added index.html
+46ff423 HEAD@{14}: checkout: moving from master to develop
+46ff423 HEAD@{15}: commit: Added empty readme.txt and folders
+9a3f9c9 HEAD@{16}: clone: from https://github.com/CaptainShepard01/DevOps_online_Kyiv_2022Q1Q2.git
