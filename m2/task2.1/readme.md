@@ -73,3 +73,39 @@
    - Pass-through mode for solid-state drives
    - Can disable host OS I/O cache
    - PATA, SATA, SCSI, SAS, iSCSI, floppy disk controllers
+
+
+# Part 2. Work with VirtualBox
+## Launching Ubuntu
+![Creating](./screenshots/Creating.png)
+![Installing](./screenshots/Installing.png)
+![FirstLaunch](./screenshots/FirstLaunch.png)
+
+## Interacting with VM's
+![Clone](./screenshots/Clone.png)
+![Group](./screenshots/Group.png)
+![Snapshots](./screenshots/Snapshots.png)
+![Export](./screenshots/Export.png)
+![ova](./screenshots/ovaFile.png)
+![Import](./screenshots/Import.png)
+![Imported](./screenshots/Imported.png)
+
+## Configuring USB and Shared Folder
+![USB](./screenshots/USBConfiguration.png)  
+![InLinux](./screenshots/InUbuntu.png)  
+![Shared](./screenshots/SharedFolder.png)  
+![Shared1](./screenshots/SharedFolder1.png)  
+![InnerShared](./screenshots/InnerSharedFolder.png)  
+![InnerShared1](./screenshots/InnerSharedFolder1.png)  
+![SharedFromVBox](./screenshots/SharedFolderFromVBox.png)  
+
+## Network modes:
+![Connections](./screenshots/TableOfConnections.png)  
+
+## Working with CLI through VBoxManage
+![list](./screenshots/command_list.png)
+![showvm](./screenshots/command_showvminfo.png)
+![createvm](./screenshots/command_createvm.png)
+![startvm](./screenshots/command_startvm.png)
+![snapshot](./screenshots/command_snapshot.png)
+![controlvm](./screenshots/command_controlvm.png)
