@@ -74,7 +74,7 @@
    - Can disable host OS I/O cache
    - PATA, SATA, SCSI, SAS, iSCSI, floppy disk controllers
 
-
+---
 # Part 2. Work with VirtualBox
 ## Launching Ubuntu
 ![Creating](./screenshots/Creating.png)
@@ -103,11 +103,11 @@
 ## Network modes:
 | Mode | VM -> Host | VM <- Host | VM1 <-> VM2 | VM -> Net/LAN | VM <- Net/LAN> |
 |---|:-:|:-:|:-:|:-:|:-:|
-| NAT             | + | Port forward | - | + | Port forward |
-| NAT Network     | + | Port forward | + | + | Port forward |
-| Bridged adapter | + |       +      | + | + |       +      |
-| Host-only       | + |       +      | + | - |       -      |
-| Internal        | - |       -      | + | - |       -      |  
+| **NAT**             | + | Port forward | - | + | Port forward |
+| **NAT Network**     | + | Port forward | + | + | Port forward |
+| **Bridged adapter** | + |       +      | + | + |       +      |
+| **Host-only**       | + |       +      | + | - |       -      |
+| **Internal**        | - |       -      | + | - |       -      |  
 ---
 
 ## Working with CLI through VBoxManage
@@ -117,3 +117,18 @@
 ![startvm](./screenshots/command_startvm.png)
 ![snapshot](./screenshots/command_snapshot.png)
 ![controlvm](./screenshots/command_controlvm.png)
+
+
+---
+# Part 3. Work with Vagrant
+## Initializing the enviroment ubuntu/trusty64
+![init_ubuntu](./screenshots/init_ubuntu.png)  
+![vagrant_up1](./screenshots/vagrant_up1.png)  
+![vagrant_up2](./screenshots/vagrant_up2.png)
+
+## Connecting using the program MobaXterm
+![date](./screenshots/date.png)  
+
+## Creating my own Vagrant box
+![box](./screenshots/box.png)    
+![created_box](./screenshots/created_box.png)
