@@ -99,8 +99,16 @@
 ![InnerShared1](./screenshots/InnerSharedFolder1.png)  
 ![SharedFromVBox](./screenshots/SharedFolderFromVBox.png)  
 
+---
 ## Network modes:
-![Connections](./screenshots/TableOfConnections.png)  
+| Mode | VM -> Host | VM <- Host | VM1 <-> VM2 | VM -> Net/LAN | VM <- Net/LAN> |
+|---|:-:|:-:|:-:|:-:|:-:|
+| NAT             | + | Port forward | - | + | Port forward |
+| NAT Network     | + | Port forward | + | + | Port forward |
+| Bridged adapter | + |       +      | + | + |       +      |
+| Host-only       | + |       +      | + | - |       -      |
+| Internal        | - |       -      | + | - |       -      |  
+---
 
 ## Working with CLI through VBoxManage
 ![list](./screenshots/command_list.png)
