@@ -1,2 +1,4 @@
 */task2.1/Anton_Balykov
 *.box
+*.vagrant
+Vagrantfile
