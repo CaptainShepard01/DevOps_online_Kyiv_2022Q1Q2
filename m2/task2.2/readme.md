@@ -44,5 +44,5 @@
 ![results](./screenshots/execution_results.png)
 
 ## Ex. 15
-![website](./screenshots/static_website.png)
+![website](./screenshots/static_website.png)  
 [Static website](http://epam-devops.s3-website.eu-central-1.amazonaws.com/)
